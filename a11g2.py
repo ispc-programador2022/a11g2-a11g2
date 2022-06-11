@@ -1,10 +1,13 @@
 #Aqui se deberá insertar el código.
+import random
+
 #titulo
 print("arrancando el codigo del grupo a11g2")
 #Issue nro 6
 def producto(parametro1,parametro2):
   return parametro1*parametro2
   
+
 #Issue nro 9
 def potencia(numeros):
     return numeros[0]**numeros[1]
