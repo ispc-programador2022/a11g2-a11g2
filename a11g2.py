@@ -1,4 +1,5 @@
 #Aqui se deberá insertar el código.
+import random
 
 #Issue nro 9
 def potencia(numeros):
