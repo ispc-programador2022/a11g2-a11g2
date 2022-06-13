@@ -2,13 +2,10 @@
 import random
 from potencia import potencia
 from radicacion import radicacion
+from producto import producto
 
 #titulo
 print("arrancando el codigo del grupo a11g2")
-
-#Issue nro 6 - Ignacio
-def producto(parametro1,parametro2):
-  return parametro1*parametro2
 
 #Issue nro 11 - Ignacio
 def p1(parametro1,parametro2,parametro3):
@@ -30,7 +27,7 @@ def genrnd():
 #Issue nro 15 - Ignacio
 def suma_lista(lista):
     acu=0
-    for i in range len(lista):
+    for i in range (len(lista)):
         acu+=genrnd[i]
     return acu
 
