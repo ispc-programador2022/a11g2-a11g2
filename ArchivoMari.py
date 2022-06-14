@@ -6,3 +6,4 @@ def ing2s (string1,string2):
 
 
 
+#Función de nombre calcula_mediana que debe retornar la mediana del array obtenido de la función genrnd genrnd: genera un array de 50 numeros aleatorios
