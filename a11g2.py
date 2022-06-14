@@ -11,6 +11,11 @@ print("arrancando el codigo del grupo a11g2")
 def p1(parametro1,parametro2,parametro3):
     return suma(producto(parametro1,parametro2),parametro3)
     
+
+#Issue nro 10 - Lourdes
+def p2(a,b,c):
+    return suma(a,b)*c
+
 #Issue nro 13 - Agustin
 def p3(x,y,c):
     res=resta(x,y)
@@ -31,6 +36,11 @@ def suma_lista(lista):
         acu+=genrnd[i]
     return acu
 
+#Issue nro 20 - Lourdes
+def calcular_rango():
+    list= [min(genrnd()),max(genrnd())]
+    return list
+    
 #Issue nro 21 - Agustin
 def calcula_varianza(lista):
     #lista=[1500,1200,1700,1300,1800] --> 228.035
@@ -44,3 +54,8 @@ def calcula_varianza(lista):
     res=cociente(sumatoria,len(lista))
     res=radicacion(res,2)
     return res
+
+#Isue nro 22 - Lourdes
+def calcula_min():
+    return min(genrnd())
+

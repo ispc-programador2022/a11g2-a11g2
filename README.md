@@ -30,12 +30,13 @@ entonces ponemos:
 
 ### Segundo paso: creamos nuestra rama (tambien existen varias maneras)
 
-La primera y mas sencilla es usando el siguiente comando:
+1 - La primera forma y mas sencilla es usando el siguiente comando:
 
 ```git checkout -b nombreRama```
 
 Este comando copia la rama actual en la que estamos (main) y nos genera una nueva - en este caso la rama se llamara 'nombreRama'
 
+2 - Una segunda forma:
 ```git branch nombreRama ```  (se crea la rama pero aun estas ubicadx en main)
 ```git checkout nombreRama ``` (debes moverte a la rama creada)
 
@@ -77,7 +78,15 @@ Como creaste una rama nueva, la manera de subir los cambios difiere un poco. Deb
 
 y ya casi estamos
 
-### Sexto paso: Como hicimos rama nueva y queremos tener todo lo "entregable" en una sola rama, debemos enviar nuestros cambios a pull request con la rama main. (la rama main sera la rama base)
+### Sexto paso: Pull request
+
+Como hicimos rama nueva y queremos tener todo lo "entregable" en una sola rama, debemos enviar nuestros cambios a pull request con la rama main. (la rama main sera la rama base)
+
+Vas a la solapa "pull requests" pones "new pull request" y te aparecen 2 desplegables para elegir ramas.
+
+La rama base debe ser main (como esta por defecto) la otra rama debe ser la que vos acabas de subir.
+
+una vez elegidas pones "create pull request" (podes cambiar el titulo y poner un comentario de los cambios)
 
 
 **Y ahora si es el final, prende una vela, tira saumerio y que sea lo que san github quiera.** 
