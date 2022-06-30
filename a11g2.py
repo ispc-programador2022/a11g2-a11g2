@@ -40,8 +40,7 @@ def suma_lista(lista):
 def calcula_media(lista): 
     res = 0
     for i in range(len(lista)):
-        res=suma_lista([res, lista[i]])
-    res = res/len(lista)
+    res=suma([res, lista[i]])
     return res
 
 #Issue nro 20 - Lourdes
