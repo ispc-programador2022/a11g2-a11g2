@@ -1,0 +1,34 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Issue numero 4 - suma.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNoqkNc4L1Xh9g6kVf/qApO"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "Raupdit7rn3j"
+      },
+      "outputs": [],
+      "source": [
+        "#Issue numero 4 - suma - Horacio\n",
+        "def suma(x,y):\n",
+        "    return x+y"
+      ]
+    }
+  ]
+}
