@@ -7,6 +7,14 @@ from producto import producto
 #titulo
 print("arrancando el codigo del grupo a11g2")
 
+#Issue nro 2 - Natalia
+def ing2i():
+  return int,int
+
+#Issue nro 5 - Natalia
+def resta(parametro1,parametro2):
+    return (parametro1-parametro2)
+
 #Issue nro 11 - Ignacio
 def p1(parametro1,parametro2,parametro3):
     return suma(producto(parametro1,parametro2),parametro3)
@@ -42,6 +50,10 @@ def calcula_media(lista):
     for i in range(len(lista)):
     res=suma([res, lista[i]])
     return res
+
+#Issue nro 16
+def  producto_lista():
+    return producto(genrnd)
 
 #Issue nro 20 - Lourdes
 def calcular_rango():
