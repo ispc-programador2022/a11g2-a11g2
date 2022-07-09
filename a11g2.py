@@ -7,7 +7,7 @@ from producto import producto
 #titulo
 print("arrancando el codigo del grupo a11g2")
 
-#Issue nro 2 - Natalia
+#Issue nro 2 - Natalia /// Rehacer
 def ing2i():
   return int,int
 
@@ -44,16 +44,18 @@ def suma_lista(lista):
         acu+=genrnd[i]
     return acu
 
+#Issue nro 16 - Natalia /// rehacer
+def  producto_lista():
+    return producto(genrnd)
+
+
 #Issue nro 18 - Lina
 def calcula_media(lista): 
     res = 0
     for i in range(len(lista)):
-    res=suma([res, lista[i]])
+        res=suma([res, lista[i]])   
     return res
 
-#Issue nro 16
-def  producto_lista():
-    return producto(genrnd)
 
 #Issue nro 20 - Lourdes
 def calcular_rango():
