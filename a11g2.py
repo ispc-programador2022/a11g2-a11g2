@@ -1,4 +1,4 @@
-#Aqui se deberá insertar el código.
+#Aqui se deberá insertar el código. 
 import random
 from potencia import potencia
 from radicacion import radicacion
