@@ -36,6 +36,13 @@ def suma_lista(lista):
         acu+=genrnd[i]
     return acu
 
+#Issue nro 18 - Lina
+def calcula_media(lista): 
+    res = 0
+    for i in range(len(lista)):
+    res=suma([res, lista[i]])
+    return res
+
 #Issue nro 20 - Lourdes
 def calcular_rango():
     list= [min(genrnd()),max(genrnd())]
