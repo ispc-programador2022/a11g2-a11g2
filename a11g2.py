@@ -28,7 +28,7 @@ def genrnd():
 def suma_lista(lista):
     acu=0
     for i in range (len(lista)):
-        acu+=genrnd[i]
+        acu+=lista[i]
     return acu
 
 #Issue nro 21 - Agustin
