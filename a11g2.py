@@ -5,8 +5,10 @@ import random
 print("arrancando el codigo del grupo a11g2")
 
 #Issue nro 2
-def ing2i():
-  return int,int
+def ing2i(): 
+    nro1= int(input("ingrese el primer numero: "))
+    nro2= int(input("ingrese el segundo numero: "))
+    return [nro1, nro2]
 
 #Issue nro 5 
 def resta(parametro1,parametro2):
@@ -15,10 +17,8 @@ def resta(parametro1,parametro2):
 #Issue nro 6
 def producto(parametro1,parametro2):
   return parametro1*parametro2
-  
-#Issue nro 8
-def modulo(parametro1,parametro2):
-    return parametro1%parametro2
+
+
 
 #Issue nro 9
 def potencia(numeros):
@@ -50,8 +50,16 @@ def genrnd():
 suma_lista(genrnd())
 
 #Issue nro 16
-def  producto_lista():
-    return producto(genrnd)
+def  producto_lista(lista):
+    res =[]
+    for _ in lista:
+        x=random.choice(lista)
+        y=random.choice(lista)
+        res.append(producto[x,y])
+    return res
+
+producto_lista(genrnd())
+
 
 #Issue nro 21
 def calcula_varianza(lista):
