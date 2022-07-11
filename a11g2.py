@@ -3,6 +3,8 @@ import random
 from potencia import potencia
 from radicacion import radicacion
 from producto import producto
+from suma import suma
+from cociente import cociente
 
 #titulo
 print("arrancando el codigo del grupo a11g2")
@@ -48,6 +50,15 @@ def suma_lista(lista):
 def  producto_lista():
     return producto(genrnd)
 
+#Issue numero 17-Cociente Lista - Horacio   
+import random
+def cociente_lista (lista):
+    res=[]
+    for _ in lista:
+        x=random.choice(lista)
+        y=random.choice(lista)
+        res.append(cociente([x,y]))
+    return res
 
 #Issue nro 18 - Lina
 def calcula_media(lista): 
