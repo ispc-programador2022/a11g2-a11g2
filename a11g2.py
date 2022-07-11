@@ -67,6 +67,13 @@ def calcula_media(lista):
         res=suma([res, lista[i]])   
     return res
 
+#Issue nro 19 - Agustin
+def calcula_mediana(lista):
+    res=0
+    for i in range(len(lista)):
+        res=suma([res,lista[i]])
+    res=cociente(res,2)
+    return res
 
 #Issue nro 20 - Lourdes
 def calcular_rango():
@@ -88,6 +95,17 @@ def calcula_varianza(lista):
     return res
 
 #Isue nro 22 - Lourdes
-def calcula_min():
-    return min(genrnd())
+def calcula_min(lista):
+    return min(lista)
+
+#Issue nro 23 - Agustin
+def calcula_max(lista):
+    return(max(lista))
+
+#Issue nro 24 - Agustin
+def genrnd5e():
+    lista=[]      
+    for i in range(500000000000000000):
+        lista.append(random.randint(-256,+256))
+    return lista
 
