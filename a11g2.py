@@ -1,51 +1,26 @@
 #Aqui se deberá insertar el código. 
 import random
+from suma import suma
+from resta import resta
+from producto import producto
+from cociente import cociente
 from potencia import potencia
 from radicacion import radicacion
-from producto import producto
-from suma import suma
-from cociente import cociente
 
 #titulo
 print("arrancando el codigo del grupo a11g2")
 
-<<<<<<< HEAD
-#Issue nro 2 - Natalia /// Rehacer
-def ing2i():
-  return int,int
-=======
 #Issue nro 2
 def ing2i(): 
     nro1= int(input("ingrese el primer numero: "))
     nro2= int(input("ingrese el segundo numero: "))
-    return [nro1, nro2]
->>>>>>> 16-producto_lista
+    return (nro1, nro2)
 
-#Issue nro 5 - Natalia
-def resta(parametro1,parametro2):
-    return (parametro1-parametro2)
-
-<<<<<<< HEAD
 #Issue nro 11 - Ignacio
 def p1(parametro1,parametro2,parametro3):
-=======
-#Issue nro 6
-def producto(parametro1,parametro2):
-  return parametro1*parametro2
-
-
-
-#Issue nro 9
-def potencia(numeros):
-    return numeros[0]**numeros[1]
-
-  #Issue nro 11
-  def p1(parametro1,parametro2,parametro3):
->>>>>>> 16-producto_lista
     return suma(producto(parametro1,parametro2),parametro3)
     
-
-#Issue nro 10 - Lourdes
+#Issue nro 12 - Lourdes
 def p2(a,b,c):
     return suma(a,b)*c
 
@@ -69,12 +44,7 @@ def suma_lista(lista):
         acu+=genrnd[i]
     return acu
 
-<<<<<<< HEAD
-#Issue nro 16 - Natalia /// rehacer
-def  producto_lista():
-    return producto(genrnd)
-=======
-#Issue nro 16
+#Issue nro 16 - Natalia
 def  producto_lista(lista):
     res =[]
     for _ in lista:
@@ -83,12 +53,7 @@ def  producto_lista(lista):
         res.append(producto[x,y])
     return res
 
-producto_lista(genrnd())
-
->>>>>>> 16-producto_lista
-
 #Issue numero 17-Cociente Lista - Horacio   
-import random
 def cociente_lista (lista):
     res=[]
     for _ in lista:
