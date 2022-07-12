@@ -1,28 +1,26 @@
 #Aqui se deberá insertar el código. 
 import random
+from suma import suma
+from resta import resta
+from producto import producto
+from cociente import cociente
 from potencia import potencia
 from radicacion import radicacion
-from producto import producto
-from suma import suma
-from cociente import cociente
 
 #titulo
 print("arrancando el codigo del grupo a11g2")
 
-#Issue nro 2 - Natalia /// Rehacer
-def ing2i():
-  return int,int
-
-#Issue nro 5 - Natalia
-def resta(parametro1,parametro2):
-    return (parametro1-parametro2)
+#Issue nro 2
+def ing2i(): 
+    nro1= int(input("ingrese el primer numero: "))
+    nro2= int(input("ingrese el segundo numero: "))
+    return (nro1, nro2)
 
 #Issue nro 11 - Ignacio
 def p1(parametro1,parametro2,parametro3):
     return suma(producto(parametro1,parametro2),parametro3)
     
-
-#Issue nro 10 - Lourdes
+#Issue nro 12 - Lourdes
 def p2(a,b,c):
     return suma(a,b)*c
 
@@ -46,12 +44,16 @@ def suma_lista(lista):
         acu+=genrnd[i]
     return acu
 
-#Issue nro 16 - Natalia /// rehacer
-def  producto_lista():
-    return producto(genrnd)
+#Issue nro 16 - Natalia
+def  producto_lista(lista):
+    res =[]
+    for _ in lista:
+        x=random.choice(lista)
+        y=random.choice(lista)
+        res.append(producto(x,y))
+    return res
 
 #Issue numero 17-Cociente Lista - Horacio   
-import random
 def cociente_lista (lista):
     res=[]
     for _ in lista:
@@ -64,7 +66,8 @@ def cociente_lista (lista):
 def calcula_media(lista): 
     res = 0
     for i in range(len(lista)):
-        res=suma([res, lista[i]])   
+        res+=suma(res, lista[i])  
+    res=cociente(res,len(lista)) 
     return res
 
 #Issue nro 19 - Agustin
