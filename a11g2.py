@@ -50,7 +50,7 @@ def  producto_lista(lista):
     for _ in lista:
         x=random.choice(lista)
         y=random.choice(lista)
-        res.append(producto[x,y])
+        res.append(producto(x,y))
     return res
 
 #Issue numero 17-Cociente Lista - Horacio   
@@ -66,7 +66,8 @@ def cociente_lista (lista):
 def calcula_media(lista): 
     res = 0
     for i in range(len(lista)):
-        res=suma([res, lista[i]])   
+        res+=suma(res, lista[i])  
+    res=cociente(res,len(lista)) 
     return res
 
 #Issue nro 19 - Agustin
