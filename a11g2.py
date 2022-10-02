@@ -12,7 +12,7 @@ from datetime import datetime
 #titulo
 print("arrancando el codigo del grupo a11g2")
 
-if __name__=='main':
+if __name__=='__main__':
     _inicio=datetime.today()
 
 #Issue nro 2 - Natalia
@@ -146,7 +146,7 @@ def tiempo_ejecucion():
     segundo_bloque = fin-comienzo
     print(f"Primer bloque: {primer_bloque} \nSegundo bloque: {segundo_bloque} \nDiferencia: {segundo_bloque-primer_bloque}")
 
-if __name__=='main':
-    _tiempo = _inicio-datetime.today()
+if __name__=='__main__':
+    _tiempo = datetime.today()-_inicio
     print(f'tiempo de ejecucion:{_tiempo}')
      
