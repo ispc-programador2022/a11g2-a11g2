@@ -12,7 +12,7 @@ y luego importamos todas las funciones con:
 from a11g2.py import *
 ```
 Ahora ya tenemos todas las funciones importadas, sientase libre de explorar las mismas.
-** En los titulos del tutorial se especifica como se debería llamar a cada una de las funciones **
+**En los titulos del tutorial se especifica como se debería llamar a cada una de las funciones**
 
 ### ing2i
 Esta funcion permite el ingreso de dos numeros, y los retorna, se puede utilizar para asignar esos dos numeros a dos variables.
